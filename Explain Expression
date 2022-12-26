@@ -1,0 +1,16 @@
+#include <stdio.h> 
+#include <conio.h>
+ 
+void  main() 
+{ clrscr();
+	int w, x, y, z, p;
+	
+	printf( " Enter 4 Integers : " );
+	scanf( "%d %d %d %d", &w, &x, &y, &z );
+	
+	p = (w + x) / (y - z);
+	
+	printf( "\n Value of P = %d", p );
+
+	getch();
+}
