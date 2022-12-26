@@ -1,0 +1,16 @@
+#include <stdio.h> 
+#include <conio.h>
+ 
+ void main() 
+{ 
+	int a, b, c; 
+	clrscr();
+
+	c = ( a = 20, b = 30, a + b );
+
+	printf( "\n a : %d", a );
+	printf( "\n b : %d", b );
+	printf( "\n c : %d", c );
+
+	getch();
+}
