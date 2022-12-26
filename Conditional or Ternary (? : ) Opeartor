@@ -1,0 +1,21 @@
+#include <stdio.h> 
+#include <conio.h>
+ 
+int  main() 
+{ 
+	int a, b, max;
+	clrscr();
+
+	printf( " Enter Two Numbers : " );
+	scanf( "%d",&a);
+
+  printf( " Enter Two Numbers : " );
+	scanf("%d",&b);
+
+	max = ( a > b ) ? a : b;
+	
+	printf( "\n Maximum Value is : %d", max );
+
+	getch();
+	return 0;
+}
